@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "353140645323",
+    "project_id": "futsal-346af",
+    "storage_bucket": "futsal-346af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353140645323:android:79bbb6deba4176a63d6a4e",
+        "android_client_info": {
+          "package_name": "com.romi.futsal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353140645323-vd35sm80p63fkjle9jcq46b4sb97e79k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.romi.futsal",
+            "certificate_hash": "47746137b432884614a6f95ccf224e577aa43e3e"
+          }
+        },
+        {
+          "client_id": "353140645323-3nge6ukpcg64mh5ntluf2o1sn5bl3oop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoUPPnmPtdl5sBTy8X_6XLzuFEwjVk2hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353140645323-3nge6ukpcg64mh5ntluf2o1sn5bl3oop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

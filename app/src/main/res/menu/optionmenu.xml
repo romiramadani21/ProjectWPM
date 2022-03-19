@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/pemesanan"
+        android:title="Pemesanan"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fasilitas"
+        android:title="Fasilitas"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/lokasi"
+        android:title="Lokasi"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tips"
+        android:title="Tips dan Trick"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/peraturan"
+        android:title="Peraturan"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/pengingat"
+        android:title="Pengingat"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/keluar"
+        android:title="Logout"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:typeface="monospace"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="5dp"
+            android:text="PERATURAN DALAM BERMAIN FUTSAL"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="384dp"
+            android:layout_height="201dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_lap" />
+
+        <View
+            android:id="@+id/View1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#448AFF" />
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="332dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:justificationMode="inter_word"
+            android:text="1).Jumlah pemain untuk memulai pertandingan maksimal 5 pemain dengan salah satu penjaga gawang.
+\n2).Jumlah pemain minimal untuk mengakhiri pertandingan adalah dua pemain dengan salah satu penjaga gawang.
+\n3).Jumlah pemain cadangan maksimal 7 orang.
+\n4).Jumlah wasit 2 orang.
+\n5).Batas pergantian pemain: tidak terbatas.
+\n6).Metode pergantian pergantian melayang, yaitu semua pemain kecuali penjaga gawang boleh memasuki dan meninggalkan lapangan kapan saja; pergantian penjaga gawang hanya dapat dilakukan jika bola tidak sedang dimainkan dan dengan persetujuan wasit.
+\n7).Lama permainan normal 2 x 20 menit.
+\n8).Lama istirahat 10 menit.
+\n9).Lama perpanjangan waktu 2 x 10 menit.
+\n10).Dilakukan dua penalti jika jumlah gol kedua tim imbang saat perpanjangan waktu selesai.
+\n11).Time-out 1 kali per tim per babak, tidak ada dalam waktu tambahan.
+\n12).Waktu pergantian babak maksimal 10 menit.
+"
+            android:textColor="#000000" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

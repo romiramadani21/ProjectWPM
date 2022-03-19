@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Login Satwik</string>
+    <string name="form_input">Form input</string>
+    <string name="nama">Nama</string>
+    <string name="no_hp">No HP</string>
+    <string name="lapangan">Lapangan</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="waktu_mulai">Waktu Mulai</string>
+    <string name="waktu_selesai">Waktu selesai</string>
+    <string name="tim">Tim</string>
+    <string name="save">Save</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

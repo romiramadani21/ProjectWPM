@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:weightSum="10">
+
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:typeface="monospace"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="5dp"
+            android:text="FASILITAS LAPANGAN FUTSAL"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="396dp"
+        android:layout_height="181dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_fut" />
+
+        <View
+            android:id="@+id/View1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#448AFF" />
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:rowCount="4">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@drawable/parkir" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Tempat Parkir, Tempat Parkir merupakan\nsalah satu Tempat yang sangat\npenting mengingat rata-rata para\nkonsumen membawa kendaraan \nuntuk menuju Lapangan Futsal" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:srcCompat="@drawable/toilet" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:text="Toilet Pun menjadi fasilitas yang harus\natau bahkan wajib ada. Jika fasilitas ini\ntidak ada,kenyamanan pengguna jasa\nsewa lapangan futsal akan terganggu." />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            app:srcCompat="@drawable/mushola" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:text="Musholla pada Jasa Sewa Lapangan\nFutsal pun tak kalah penting. Mengingat\nsebagian masyarakat Indonesia beragama\nIslam dan wajibnya sholat bagi Umat\nIslam untuk melakukan Ibadah." />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            app:srcCompat="@drawable/kantin" />
+
+        <TextView
+            android:id="@+id/fgjk"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Kantin berperan, Dengan adanya Kantin,\ntentu akan membudahkan pengguna Jasa\nSewa Lapangan Futsal untuk mendapatkan\nmakanan dan minuman" />
+
+    </GridLayout>
+
+
+</LinearLayout>
+
+

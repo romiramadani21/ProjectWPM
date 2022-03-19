@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/ball_3"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#1A6425">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Form Pemesanan"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nama"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/et_nohp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/no_hp"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/et_lapangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lapangan"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/et_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tanggal"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/et_mulai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/waktu_mulai"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/et_selesai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/waktu_selesai"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/et_tim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tim"
+            android:inputType="textCapSentences"/>
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Kirim"/>
+        
+    </LinearLayout>
+</LinearLayout>
